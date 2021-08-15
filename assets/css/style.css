@@ -4,3 +4,47 @@
     --dark: #2D2A32;
 }
 
+.trans {
+    background-color: var(--dark); 
+    font-family: "Montserrat", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .anim {
+    background: var(--accent);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+  }
+  
+  .trans-copy {
+    color: var(--primary) ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+  }
+  
+  .hidden {
+    background: var(--dark);
+    overflow: hidden;
+  }
+  
+  .hidden span {
+    transform: translateY(100%);
+    display: inline-block;
+  }
+
+  @media screen and (max-width:726px) {
+      .trans-copy {
+          font-size: 25px;
+      }
+  }

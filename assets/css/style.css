@@ -4,6 +4,33 @@
     --dark: #2D2A32;
 }
 
+html {
+    background-color: var(--dark);
+}
+
+ .nav{
+     background-color: black;
+ }
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent); 
+    border-radius: 10px;
+  }
+  
+  
+  
+
 .trans {
     background-color: var(--dark); 
     font-family: "Montserrat", sans-serif;
@@ -45,6 +72,12 @@
 
   @media screen and (max-width:726px) {
       .trans-copy {
-          font-size: 25px;
+          font-size: 16rem;
       }
   }
+
+
+ .container {
+     position: absolute;
+     top: 100%;
+ }

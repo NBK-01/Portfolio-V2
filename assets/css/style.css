@@ -42,3 +42,9 @@
     transform: translateY(100%);
     display: inline-block;
   }
+
+  @media screen and (max-width:726px) {
+      .trans-copy {
+          font-size: 25px;
+      }
+  }

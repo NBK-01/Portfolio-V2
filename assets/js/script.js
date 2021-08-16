@@ -1,0 +1,1 @@
+alert("Hey there! viewing this webpage on desktop is recommended")

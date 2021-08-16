@@ -4,17 +4,43 @@
     --dark: #2D2A32;
 }
 
-body {
+html{
     background-color: var(--dark);
+    cursor: none;
+}
+
+.cursor {
+  width: 2rem;
+  height:2rem;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.2s ease;
+  transition-property: background, transform;
+  transform-origin: 100%, 100%;
+}
+
+.link-grow{
+  transform: scale(3);
+  background: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+
+
+
+.nav-wrapper{
+  background: transparent;
 }
 
 nav {
     box-shadow: none !important;
+    background: transparent
   }
 
-.nav-wrapper {
-    background-color: var(--dark);
-}
+
 
 
 
@@ -22,8 +48,14 @@ nav {
     margin-left: 20px;
     color: var(--primary);
     font-size: 3vh;
-    cursor: pointer;
-    text-decoration: underline;
+    padding: 2px;
+    cursor: none;
+    transition: all 0.6s ease;
+}
+
+#nav-item:hover{
+  background: none;
+  color: var(--dark);
 }
 
 
@@ -92,4 +124,4 @@ nav {
   }
 
 
- 
+  

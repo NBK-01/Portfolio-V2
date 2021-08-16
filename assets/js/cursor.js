@@ -4,6 +4,8 @@ let navLinks = document.querySelectorAll("#nav-item");
 
 let introText = document.querySelectorAll(".intro-text");
 
+let contactLinks = document.querySelectorAll(".contact-item");
+
 window.addEventListener('mousemove', cursor);
 
 function cursor(e) {
@@ -31,3 +33,12 @@ introText.forEach(text => {
     });
 
 });
+
+contactLinks.forEach(link => {
+    link.addEventListener('mouseover', () =>{
+        mouseCursor.classList.add("link-grow");
+    })
+    link.addEventListener('mouseout', () =>{
+        mouseCursor.classList.remove("link-grow");
+    })
+})

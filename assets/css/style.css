@@ -22,10 +22,17 @@ html{
   transition: all 0.2s ease;
   transition-property: background, transform;
   transform-origin: 100%, 100%;
+  z-index: -1;
 }
 
 .link-grow{
   transform: scale(3);
+  background: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+.link-grow-text{
+  transform: scale(5);
   background: var(--accent);
   border: 2px solid var(--accent);
 }
@@ -79,6 +86,11 @@ float: right;
   font-size: 2vh;
   font-family: "Montserrat", sans-serif;
   color: var(--accent);
+  transition: all 0.6s ease;
+}
+
+.section1 p:hover{
+  color: var(--dark)
 }
 
 

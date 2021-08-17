@@ -6,6 +6,8 @@ let introText = document.querySelectorAll(".intro-text");
 
 let contactLinks = document.querySelectorAll(".contact-item");
 
+
+
 window.addEventListener('mousemove', cursor);
 
 function cursor(e) {
@@ -42,3 +44,4 @@ contactLinks.forEach(link => {
         mouseCursor.classList.remove("link-grow");
     })
 })
+

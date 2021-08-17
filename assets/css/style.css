@@ -2,6 +2,7 @@
     --accent: #E0DD3E;
     --primary: #FAFDF6;
     --dark: #2D2A32;
+    --border: rgba(224, 221, 62, 0.3);
 }
 
 
@@ -94,7 +95,7 @@ margin-right: 5%;
 }
 
 .projects-section{
-  margin-top: 20em ;
+  margin-top: 20em;
 }
 
 .project-title{
@@ -102,8 +103,50 @@ margin-right: 5%;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: var(--primary);
-
 }
+
+.project-list{
+  width: 90%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-list ul{
+  border-bottom: 1px solid var(--border);
+}
+
+.project-links{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.project-links a{
+  margin-left: 35px;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 2vh;
+  transition: 0.6s ease;
+}
+
+.project-links a:hover{
+  color: var(--dark);
+}
+
+.project-list-title{
+  margin-left: 25px;
+  color: var(--primary);
+  font-size: 5vh;
+}
+
+
+
+
+
+
+
 
 
 

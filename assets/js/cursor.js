@@ -6,7 +6,7 @@ let introText = document.querySelectorAll(".intro-text");
 
 let contactLinks = document.querySelectorAll(".contact-item");
 
-
+let projectLinks = document.querySelectorAll(".project-link-tag");
 
 window.addEventListener('mousemove', cursor);
 
@@ -45,3 +45,11 @@ contactLinks.forEach(link => {
     })
 })
 
+projectLinks.forEach(link => {
+    link.addEventListener('mouseover', () =>{
+        mouseCursor.classList.add("link-grow");
+    })
+    link.addEventListener('mouseout', () =>{
+        mouseCursor.classList.remove("link-grow");
+    })
+})

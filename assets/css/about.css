@@ -22,13 +22,13 @@ html{
     transition: all 0.2s ease;
     transition-property: background, transform;
     transform-origin: 100%, 100%;
-    z-index: -1;
   }
   
   .link-grow{
     transform: scale(3);
     background: var(--accent);
     border: 2px solid var(--accent);
+    z-index: -1;
   }
   
   .link-grow-text{
@@ -96,6 +96,15 @@ html{
     font-weight: bold;
   }
 
+
+.about-pic .container img{
+  width: 70%;
+  height: 70%;
+}
+
+.about-pic{
+  margin-top: 5%;
+}
 
 
 

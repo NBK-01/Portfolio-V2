@@ -106,8 +106,7 @@ margin-right: 5%;
 }
 
 .project-list{
-  margin-left: 20px;
-  width: 95%;
+  width: 90%;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -137,6 +136,7 @@ margin-right: 5%;
 }
 
 .project-list-title{
+  margin-left: 25px;
   color: var(--primary);
   font-size: 5vh;
 }

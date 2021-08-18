@@ -2,7 +2,7 @@
     --accent: #E0DD3E;
     --primary: #FAFDF6;
     --dark: #2D2A32;
-    --border: rgba(224, 221, 62, 0.3);
+    --border: rgba(224, 221, 62, 0.7);
 }
 
 
@@ -11,6 +11,9 @@ html{
     background-color: var(--dark);
     cursor: none;
 }
+
+
+
 
 .cursor {
   width: 2rem;
@@ -148,7 +151,18 @@ margin-right: 5%;
 
 
 
+.page-footer{
+  margin-top: 5%;
+  background: transparent;
+  font-size: 20px;
+  color: var(--accent);
+  font-weight: bold;
+}
 
+.page-footer p a{
+  color: var(--accent);
+  text-decoration: underline;
+}
 
 
 

@@ -51,8 +51,6 @@ html{
   
   
   #nav-item{
-      margin-left: 20px;
-      color: var(--primary);
       font-size: 3vh;
       padding: 2px;
       cursor: none;
@@ -63,6 +61,15 @@ html{
     background: none;
     color: var(--dark);
   }
+
+  .repo-btn{
+    margin-right: 50px;
+    
+    }
+    
+    .repo-btn a{
+    color: var(--accent)
+    }
 
 
   .about-intro h1{

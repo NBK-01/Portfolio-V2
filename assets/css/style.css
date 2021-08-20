@@ -26,7 +26,7 @@ html{
   transition: all 0.2s ease;
   transition-property: background, transform;
   transform-origin: 100%, 100%;
-  z-index: -1;
+  z-index: -2;
 }
 
 .link-grow{
@@ -43,6 +43,16 @@ html{
 
 .nav-wrapper{
   background: transparent;
+}
+
+#mobile-demo{
+  background-color: var(--dark);
+}
+
+#mobile-demo li a{
+  color: var(--accent);
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vh;
 }
 
 nav {

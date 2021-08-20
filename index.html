@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="assets/img/Apple icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -19,16 +21,17 @@
     <nav>
         <div class="nav-wrapper">
 
-          
+       
           <a href="index.html" id = "nav-item" class="brand-logo center"> NBK </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-          <ul id ="nav-mobile" class="left">
+          <ul class="left hide-on-med-and-down">
 
               <li> <a href="#" id ="nav-item" class="abt-btn"> ./about.html </a>  </li>
 
           </ul>
 
-          <ul id ="nav-mobile" class="right">
+          <ul class="right hide-on-med-and-down">
 
             <li class="repo-btn"> <a href="https://github.com/NBK-01/Portfolio-V2" target = "_blank" id ="nav-item"> `this.repo` </a>  </li>
 
@@ -36,6 +39,11 @@
 
         </div>
       </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li> <a href="https://github.com/NBK-01/Portfolio-V2" target = "_blank"> `this.repo` </a>  </li>
+        <li>  <a href="#" class="abt-btn-mobile"> ./about.html </a>  </li>
+      </ul>
 
  
     <section class="row intro-section col s12">
@@ -126,6 +134,7 @@
 <div class="anim"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/js/anim.js"></script>
     <script src="assets/js/cursor.js"></script>
     <script src="assets/js/script.js"></script>

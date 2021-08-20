@@ -8,8 +8,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-let aboutBtn = document.querySelector(".abt-btn-mobile")
+let aboutBtn = document.querySelector(".abt-btn")
+let aboutBtnMobile = document.querySelector(".abt-btn-mobile")
 var aboutPage = 'about.html'
+
+aboutBtnMobile.addEventListener("click", function(){
+  document.location.replace(aboutPage);
+})
 
 aboutBtn.addEventListener("click", function(){
     document.location.replace(aboutPage);

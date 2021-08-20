@@ -47,7 +47,19 @@ html{
     }
   
   
-  
+    #mobile-demo{
+      background-color: var(--dark);
+    }
+    
+    #mobile-demo li a{
+      color: var(--accent);
+      font-family: "Montserrat", sans-serif;
+      font-size: 3vh;
+    }
+
+    i{
+      color: var(--accent);
+    }
   
   
   #nav-item{

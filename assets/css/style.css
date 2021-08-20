@@ -55,6 +55,11 @@ html{
   font-size: 3vh;
 }
 
+
+i{
+  color: var(--accent);
+}
+
 nav {
     box-shadow: none !important;
     background: transparent

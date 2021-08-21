@@ -2,9 +2,8 @@
 
 ## This portfolio is a way for me to creatively display the top projects I have worked on recently and will get updated along the way.
 
-![icon](https://img.shields.io/badge/Progress-Incomplete-red)
-![icon](https://img.shields.io/badge/Deployment-Success-brightgreen)
-![icon](https://img.shields.io/badge/Mobile-Not%20fully%20responsive-critical)
+
+
 
 
 ## Tech used:

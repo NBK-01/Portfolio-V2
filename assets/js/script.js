@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
+  
+
+
 let contactBtn = document.querySelector(".contact-btn")
 let contactBtnMobile = document.querySelector(".contact-btn-mobile")
 var contactPage = 'contact.html'

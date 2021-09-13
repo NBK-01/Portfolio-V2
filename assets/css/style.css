@@ -126,57 +126,40 @@ margin-right: 5%;
   color: var(--dark)
 }
 
-.projects-section{
-  margin-top: 20em;
-}
-
-.project-title{
-  font-size: 5vh;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: var(--primary);
-}
-
-.project-list{
-  width: 90%;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.project-list ul{
-  border-bottom: 1px solid var(--border);
-}
-
-.project-links{
-  list-style: none;
-  display: flex;
+.tdimension {
+	width: 200px;
+	height: 200px;
+	margin: 20px auto 40px auto;
+	perspective: 1000px;
+  display:flex;
   flex-direction: row;
 }
-
-.project-links a{
-  margin-left: 35px;
-  color: var(--accent);
-  cursor: pointer;
-  font-size: 2vh;
-  transition: 0.6s ease;
+.tdimension a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+  border-radius: 2px;
+	background: url("/assets/img/Apple\ icon.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
 }
-
-.project-links a:hover{
-  color: var(--dark);
+.tdimension:hover a {
+	transform: rotateX(20deg); 	
+}	
+.tdimension a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    background: var(--accent);    
+   	transform: rotateX(90deg);
+    transform-origin: bottom;
 }
-
-.project-list-title{
-  margin-left: 25px;
-  color: var(--primary);
-  font-size: 5vh;
-}
-
-.project-image{
-  width: 35%;
-}
-
 
 
 

@@ -126,14 +126,30 @@ margin-right: 5%;
   color: var(--dark)
 }
 
+.skill{
+  margin-top: 10%;
+}
+
+.skill-title {
+  color: var(--primary);
+  
+
+}
+
+.skill-list{
+  list-style: none;
+ 
+}
+
 .tdimension {
+  display:inline-block;
 	width: 200px;
 	height: 200px;
-	margin: 20px auto 40px auto;
+  margin-left: 7%;
+  margin-bottom: 2%;
 	perspective: 1000px;
-  display:flex;
-  flex-direction: row;
 }
+
 .tdimension a {
 	display: inline-block;
 	width: 100%;
@@ -144,9 +160,10 @@ margin-right: 5%;
 	transform-style: preserve-3d;
 	transform: rotateX(70deg);
 	transition: all 0.8s;	
+  cursor: none;
 }
 .tdimension:hover a {
-	transform: rotateX(20deg); 	
+	transform: rotateX(10deg); 	
 }	
 .tdimension a:after {
     content: '';

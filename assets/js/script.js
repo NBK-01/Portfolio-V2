@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-let aboutBtn = document.querySelector(".abt-btn")
-let aboutBtnMobile = document.querySelector(".abt-btn-mobile")
-var aboutPage = 'about.html'
+let contactBtn = document.querySelector(".contact-btn")
+let contactBtnMobile = document.querySelector(".contact-btn-mobile")
+var contactPage = 'contact.html'
 
-aboutBtnMobile.addEventListener("click", function(){
-  document.location.replace(aboutPage);
+contactBtnMobile.addEventListener("click", function(){
+  document.location.replace(contactPage);
 })
 
-aboutBtn.addEventListener("click", function(){
-    document.location.replace(aboutPage);
+contactBtn.addEventListener("click", function(){
+    document.location.replace(contactPage);
 })

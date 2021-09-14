@@ -126,57 +126,167 @@ margin-right: 5%;
   color: var(--dark)
 }
 
-.projects-section{
-  margin-top: 20em;
+.skill{
+  margin-top: 10%;
 }
 
-.project-title{
-  font-size: 5vh;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+.skill-title {
   color: var(--primary);
+  
+
 }
 
-.project-list{
-  width: 90%;
+.skill-list{
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+ 
 }
 
-.project-list ul{
-  border-bottom: 1px solid var(--border);
+.tdimension {
+  display:inline-block;
+	width: 200px;
+	height: 200px;
+  margin-left: 7%;
+  margin-bottom: 2%;
+	perspective: 1000px;
 }
 
-.project-links{
-  list-style: none;
-  display: flex;
-  flex-direction: row;
+.tdimension .html {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/HTML.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
 }
 
-.project-links a{
-  margin-left: 35px;
-  color: var(--accent);
-  cursor: pointer;
-  font-size: 2vh;
-  transition: 0.6s ease;
+
+.tdimension .css {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/CSS.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
 }
 
-.project-links a:hover{
-  color: var(--dark);
+.tdimension .js {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/JS.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
 }
 
-.project-list-title{
-  margin-left: 25px;
-  color: var(--primary);
-  font-size: 5vh;
+.tdimension .node {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/Node.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
 }
 
-.project-image{
-  width: 35%;
+
+.tdimension .express {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/Express.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
 }
 
+.tdimension .Jquery {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/Jquery.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
+}
+
+.tdimension .sql {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/SQL.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
+}
+
+.tdimension .materialize {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/Materialize.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
+}
+
+.tdimension .swift {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/swift.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
+}
+
+.tdimension .git {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/img/git.png");
+	background-size: cover;
+	transform-style: preserve-3d;
+	transform: rotateX(70deg);
+	transition: all 0.8s;	
+  cursor: none;
+}
+
+
+.tdimension:hover a {
+	transform: rotateX(10deg); 	
+}	
+.tdimension a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: var(--accent);    
+   	transform: rotateX(90deg);
+    transform-origin: bottom;
+}
 
 
 

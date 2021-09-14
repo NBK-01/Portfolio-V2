@@ -1,6 +1,6 @@
 // alert("Hey there! viewing this webpage on desktop is recommended")
 
-AOS.init();
+
 
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');

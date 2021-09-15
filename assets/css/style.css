@@ -41,6 +41,15 @@ html{
   border: 2px solid var(--accent);
 }
 
+
+/* body{
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+} */
+
 .nav-wrapper{
   background: transparent;
 }
@@ -127,12 +136,13 @@ margin-right: 5%;
 }
 
 .skill{
-  margin-top: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 .skill-title {
   color: var(--primary);
-  
+  font-family: "Montserrat", sans-serif;
 
 }
 
@@ -288,6 +298,18 @@ margin-right: 5%;
     transform-origin: bottom;
 }
 
+
+
+.work-heading{
+  color: var(--primary);
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.work-list{
+  list-style: none;
+  display: inline;
+}
 
 
 .page-footer{

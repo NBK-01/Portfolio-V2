@@ -308,9 +308,21 @@ margin-right: 5%;
 
 .work-list{
   list-style: none;
-  display: inline;
 }
 
+.work-list li{
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+
+.work-list li a{
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  color: var(--primary)
+}
 
 .page-footer{
   margin-top: 5%;

@@ -1,4 +1,4 @@
-// alert("Hey there! viewing this webpage on desktop is recommended")
+// alert("Hey there! I'm working on a new portfolio, ")
 
 
 

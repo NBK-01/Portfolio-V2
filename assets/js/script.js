@@ -19,3 +19,6 @@ contactBtnMobile.addEventListener("click", function(){
 contactBtn.addEventListener("click", function(){
     document.location.replace(contactPage);
 })
+
+
+

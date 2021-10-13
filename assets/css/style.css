@@ -302,28 +302,67 @@ margin-right: 5%;
 
 
 
-.work-heading{
+.contact-heading{
   color: var(--primary);
   font-family: "Montserrat", sans-serif;
 }
 
-
-.work-list{
-  list-style: none;
-}
-
-.work-list li{
-  display: inline-block;
-  margin-top: 35px;
-  margin-left: 8%;
-  margin-right: 8%;
-}
-
-
-.work-list li a{
+.about-intro h1{
+  font-size: 11vh;
+  font-weight: bold;
   font-family: "Montserrat", sans-serif;
-  font-size: 45px;
   color: var(--primary)
+}
+
+.about-intro h1 span{
+  color: var(--accent);
+}
+
+.about-section{
+    margin-left: 3%;
+}
+
+
+.contact-list li{
+  padding: 15px;
+}
+
+.contact-list li a{
+    list-style: none;
+    text-decoration: underline;
+    font-size: 2vh;
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary);
+    cursor: none;
+    transition: 0.7s ease;
+}
+
+.contact-list li a:hover{
+  color: var(--dark);
+  font-weight: bold;
+}
+
+
+.pic-con{
+ width: 500px;
+ height: 600px;
+}
+
+
+
+
+/* .pic-con:hover::before{
+content: "That's Me";
+font-size: 50px;
+font-family: "Montserrat", sans-serif;
+color: var(--accent);
+font-weight: bold;
+} */
+
+.about-pic{
+margin-top: 5%;
+width: 70%;
+height: 100%;
 }
 
 .page-footer{
